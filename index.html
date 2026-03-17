@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A-Level Performance Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>A-Level Performance Dashboard</h1>
+      <p>Track your topic confidence and estimate your expected marks in real time.</p>
+    </header>
+
+    <main class="container">
+      <section id="overview" class="cards" aria-label="Score overview"></section>
+      <section id="dashboard" class="tables" aria-live="polite"></section>
+    </main>
+
+    <template id="paper-template">
+      <article class="paper-card">
+        <div class="paper-header">
+          <h2 class="paper-title"></h2>
+          <span class="paper-total"></span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Topic Name</th>
+                <th>Grip Rating (1-10)</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody class="paper-body"></tbody>
+            <tfoot>
+              <tr>
+                <th>Expected Marks</th>
+                <td colspan="2" class="summary-expected">0.00</td>
+              </tr>
+              <tr>
+                <th>Total Marks</th>
+                <td colspan="2" class="summary-total">0</td>
+              </tr>
+              <tr>
+                <th>Percentage Score</th>
+                <td colspan="2" class="summary-percent">0.00%</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </article>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>
