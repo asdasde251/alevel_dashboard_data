@@ -1,0 +1,174 @@
+:root {
+  --bg: #f5f7fb;
+  --card: #ffffff;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --accent: #2563eb;
+  --border: #e5e7eb;
+  --weak-bg: #ffe4e6;
+  --weak-text: #b91c1c;
+  --strong-bg: #dcfce7;
+  --strong-text: #166534;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background: linear-gradient(120deg, #eff6ff, #f8fafc 45%, #eef2ff);
+  color: var(--text);
+}
+
+.hero {
+  padding: 2rem 1rem 1.25rem;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(1.6rem, 3vw, 2.25rem);
+}
+
+.hero p {
+  margin-top: 0.65rem;
+  color: var(--muted);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.score-card,
+.paper-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(15, 23, 42, 0.06);
+}
+
+.score-card {
+  padding: 0.9rem 1rem;
+}
+
+.score-card h3 {
+  margin: 0 0 0.4rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.score-card p {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.tables {
+  display: grid;
+  gap: 1rem;
+}
+
+.paper-card {
+  overflow: hidden;
+}
+
+.paper-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 1rem;
+  background: #f8fafc;
+  border-bottom: 1px solid var(--border);
+}
+
+.paper-title {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.paper-total {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.65rem;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: middle;
+}
+
+thead th {
+  font-size: 0.9rem;
+  color: var(--muted);
+  background: #fbfdff;
+}
+
+tbody tr:last-child td {
+  border-bottom: 1px solid var(--border);
+}
+
+td input {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.45rem 0.5rem;
+  font: inherit;
+  background: #fff;
+}
+
+.grip-input {
+  max-width: 120px;
+}
+
+tr.weak {
+  background: var(--weak-bg);
+  color: var(--weak-text);
+}
+
+tr.strong {
+  background: var(--strong-bg);
+  color: var(--strong-text);
+}
+
+tfoot th,
+tfoot td {
+  background: #f8fafc;
+  font-weight: 600;
+}
+
+@media (max-width: 720px) {
+  th,
+  td {
+    padding: 0.55rem;
+    font-size: 0.92rem;
+  }
+
+  .grip-input {
+    max-width: 100%;
+  }
+}

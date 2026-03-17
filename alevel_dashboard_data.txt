@@ -1,0 +1,102 @@
+A LEVEL PERFORMANCE DASHBOARD DATA
+For Cambridge AS Level (2026 exam session)
+Subjects: Physics 9702, Computer Science 9618, Mathematics 9709
+================================
+
+GENERAL EXAM MARKS
+
+Physics
+Paper 1 MCQ = 40 marks
+Paper 2 Structured = 60 marks
+
+Computer Science
+Paper 1 Theory = 75 marks
+Paper 2 Programming = 75 marks
+
+Mathematics
+Pure Mathematics 1 (P1) = 75 marks
+Statistics 1 (S1) = 50 marks
+
+
+================================
+MATHEMATICS P1 (75 marks)
+================================
+
+Quadratics (8)
+Functions (8)
+Coordinate Geometry (8)
+Circular Measure (8)
+Trigonometry (12)
+Series (8)
+Differentiation (12)
+Integration (11)
+
+
+================================
+MATHEMATICS S1 (50 marks)
+================================
+
+Representation of Data (10)
+Permutations and Combinations (8)
+Probability (10)
+Discrete Random Variables (10)
+Normal Distribution (12)
+
+
+================================
+COMPUTER SCIENCE PAPER 1 (75 marks)
+================================
+
+Information Representation (12)
+Communication and Internet Technologies (8)
+Hardware (10)
+Processor Fundamentals (12)
+System Software (10)
+Security, Privacy and Data Integrity (8)
+Ethics and Ownership (5)
+Databases (10)
+
+
+================================
+COMPUTER SCIENCE PAPER 2 (75 marks)
+================================
+
+Algorithm Design (10)
+Pseudocode Constructs (10)
+Arrays and Records (10)
+File Handling (8)
+Programming Logic (12)
+Searching Algorithms (10)
+Sorting Algorithms (10)
+Testing and Debugging (5)
+
+
+================================
+PHYSICS PAPER 1 (40 marks)
+================================
+
+Physical Quantities and Units (3)
+Kinematics (6)
+Dynamics (5)
+Forces Density Pressure (4)
+Work Energy Power (5)
+Deformation of Solids (3)
+Waves (5)
+Superposition (3)
+Electricity (4)
+DC Circuits (4)
+Particle Physics (2)
+
+
+================================
+PHYSICS PAPER 2 (60 marks)
+================================
+
+Kinematics (10)
+Dynamics (10)
+Forces Density Pressure (6)
+Work Energy Power (8)
+Deformation of Solids (6)
+Waves (8)
+Superposition (4)
+Electricity (8)
